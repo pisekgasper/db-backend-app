@@ -1,0 +1,35 @@
+{
+  "name": "db-backend-app",
+  "version": "1.0.0",
+  "description": "Node.js Rest Apis \\w Express, Sequelize and PostgreSQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pisekgasper/trash-backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "postgresql",
+    "rest",
+    "api"
+  ],
+  "author": "Gasper Pisek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pisekgasper/trash-backend/issues"
+  },
+  "homepage": "https://github.com/pisekgasper/trash-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
